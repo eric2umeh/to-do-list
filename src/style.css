@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  overflow: hidden;
+  background: #f5f3f3;
+}
+
+.wrapperDiv {
+  max-width: 35em;
+  padding: 1%;
+  margin: 10em auto;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 7px 30px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.title h4,
+.refresh {
+  font-size: 1.25rem;
+  font-weight: 100;
+  margin: 2% 5%;
+}
+
+.refresh {
+  cursor: pointer;
+}
+
+.taskInput {
+  display: flex;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.taskInput .enter {
+  margin-top: 3%;
+  padding: 0 6%;
+  cursor: pointer;
+}
+
+.taskInput input {
+  border: none;
+  padding: 0 5%;
+  width: 90%;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 8px;
+  font-size: 17px;
+  color: #444;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  justify-content: space-around;
+}
+
+.taskBox .task {
+  list-style: none;
+  font-size: 17px;
+  padding: 12px 17px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task label input {
+  margin-top: 7px;
+  color: #82aef5;
+}
+
+.task label p {
+  margin-left: 12px;
+  word-wrap: break-word;
+}
+
+.checkMe {
+  margin-right: 1%;
+}
+
+.listItem {
+  width: 75%;
+  border: none;
+  outline: none;
+}
+
+i {
+  font-size: 0.99rem;
+  color: rgb(87, 87, 87);
+}
+
+.clear-all {
+  width: 100%;
+  background: none;
+  text-align: center;
+  border: none;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.clear-all:hover {
+  text-decoration: underline;
+}
+
+.fa-ellipsis-vertical {
+  cursor: cell;
+}
+
+button,
+i {
+  cursor: pointer;
+}
+
+.save {
+  display: none;
+}
+
+.empty {
+  padding: 5%;
+  font-size: 0.8rem;
+  text-align: center;
+  color: rgba(199, 40, 72, 0.815);
+}
