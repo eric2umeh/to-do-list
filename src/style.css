@@ -59,6 +59,10 @@ body {
   font-style: italic;
 }
 
+input:focus{
+    outline: none;
+}
+
 .filters {
   display: flex;
   align-items: center;
