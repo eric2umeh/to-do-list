@@ -16,7 +16,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Javascript Course: Awesome Books ES6 ](#javascript-course-awesome-books-es6)
+- [📖 Javascript Course: To-do List ](#javascript-course-to-do-list)
   - [🛠 Built With ](#-built-with-)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
@@ -29,7 +29,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Javascript Course: Awesome Books ES6 <a name="about-project"></a>
+# 📖 Javascript Course: Todo List <a name="about-project"></a>
 
 **[Javascript & Webpack: To-do List]** A project that shows the use of webpack to bundle JavaScript, proper use of ES6 syntax and ES6 modules to write modular JavaScriptand remove books using ES6.
 ## A project that shows the use of webpack to bundle JavaScript, proper use of ES6 syntax and ES6 modules to write modular JavaScript
@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Awesome Books ES6](https://eric2umeh.github.io/to-do-list.git/)
+[To-do List](https://eric2umeh.github.io/to-do-list.git/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
