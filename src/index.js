@@ -30,7 +30,7 @@ function displayTodo() {
     }
   });
 
-  taskBox.innerHTML = liTag || '<p class="empty">No task available</p>';
+  taskBox.innerHTML = liTag;
   taskInput.value = '';
 }
 
