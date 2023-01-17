@@ -59,8 +59,8 @@ body {
   font-style: italic;
 }
 
-input:focus{
-    outline: none;
+input:focus {
+  outline: none;
 }
 
 .filters {
