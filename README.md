@@ -76,7 +76,7 @@
 
 - On the terminal run this command git clone https://github.com/eric2umeh/awesome-books-es6.git
 
-- Install the dev dependencies for linters and run npm install.
+- Install the dev dependencies for linters and run npm install. ``` npm  i --save-dev webpack --config webpack.config.js webpack-cli webpack-dev-server express webpack-dev-middleware style-loader css-loader html-webpack-plugin mini-css-extract-plugin loadash```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

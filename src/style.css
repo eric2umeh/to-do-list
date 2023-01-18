@@ -1,0 +1,99 @@
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #444;
+}
+
+input {
+  font-style: italic;
+  border: none;
+  padding: 1em;
+  font-size: 1em;
+}
+
+.title,
+input,
+li {
+  border-bottom: lightgray solid 1px;
+}
+
+input:focus {
+  outline: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 1em;
+  margin: 0;
+  list-style: none;
+}
+
+label {
+  margin-left: 0.5em;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1em;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1.1em;
+}
+
+.title > p {
+  margin: 0;
+}
+
+.item-element {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-task-container {
+  padding: 0;
+  width: min-content;
+  cursor: cell;
+}
+
+.checkboxContainer {
+  display: flex;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 28rem;
+  background-color: #fff;
+  box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.6);
+}
+
+.div-todo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btn-clear-com {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  align-self: center;
+  font-size: 1.1em;
+  margin: 1em;
+}
