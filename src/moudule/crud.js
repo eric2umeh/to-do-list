@@ -18,11 +18,6 @@ const Task = class {
         completed: false,
         index: 1,
       },
-      {
-        description: 'Comwqsaect',
-        completed: false,
-        index: 2,
-      },
     ];
   }
 
