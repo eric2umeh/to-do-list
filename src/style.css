@@ -63,7 +63,7 @@ label {
   align-items: center;
   padding: 0;
   width: min-content;
-  cursor: move;
+  cursor: pointer;
 }
 
 .checkboxContainer {

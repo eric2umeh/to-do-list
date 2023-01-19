@@ -1,8 +1,9 @@
+/* eslint-disable no-unused-vars */
 const containerElement = document.querySelector('.containerTodo');
 const ulElement = document.querySelector('.ulElement');
 
 const Task = class {
-  constructor(description, completed = false, index = 1) {
+  constructor(description, completed = false, index = 0) {
     this.description = description;
     this.completed = completed;
     this.index = index;
@@ -17,11 +18,16 @@ const Task = class {
         completed: false,
         index: 1,
       },
+      {
+        description: 'Comwqsaect',
+        completed: false,
+        index: 2,
+      },
     ];
   }
 
   populateField = () => {
-    let i = -1;
+    let i = 0;
     this.tasks.forEach((task) => {
       i += 1;
       task.index = i;
@@ -55,7 +61,7 @@ const Task = class {
       textInput.classList.add('textInput', 'hidden');
       icon.classList.add('iconContainer');
       itemElement.classList.add('itemElement');
-      icon.innerHTML = '<i class="fas fa-ellipsis-v"></i>';
+      icon.innerHTML = '<i class="fas fa-trash-alt"></i>';
       const iconMenu = '<i class="fas fa-ellipsis-v"></i>';
       const iconDelete = '<i class="fas fa-trash-alt"></i>';
       textInput.value = task.description;
@@ -96,7 +102,7 @@ const Task = class {
         textInput.classList.add('hidden');
         li.classList.remove('editing');
         setTimeout(() => {
-          icon.innerHTML = iconMenu;
+          icon.innerHTML = iconDelete;
           icon.style.cursor = 'menu';
         }, 150);
       });
