@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/eric2umeh/to-do-list/issues"
   },
-  "homepage": "https://github.com/eric2umeh/to-do-list#readme",
+  "homepage": "https://github.com/eric2umeh/to-do-list",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.3",
