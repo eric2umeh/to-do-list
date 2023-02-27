@@ -4,7 +4,6 @@
   "description": "<a name=\"readme-top\"></a>",
   "private": true,
   "scripts": {
-    "deploy": "gh-pages -d dist",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "server": "node server.js",
