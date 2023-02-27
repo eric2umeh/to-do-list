@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eric2umeh/to-do-list.git"
+    "url": "git+https://github.com/eric2umeh/to-do-list/"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/eric2umeh/to-do-list/issues"
   },
-  "homepage": "https://eric2umeh.github.io/to-do-list",
+  "homepage": "https://github.com/eric2umeh/to-do-list#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.3",
@@ -37,6 +37,7 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0",
+    "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-middleware": "^6.0.1",
     "webpack-dev-server": "^4.11.1",
@@ -45,7 +46,6 @@
   "dependencies": {
     "express": "^4.18.2",
     "lodash": "^4.17.21",
-    "webpack": "^5.75.0",
     "webpack-dev-middleware": "^6.0.1"
   }
 }
